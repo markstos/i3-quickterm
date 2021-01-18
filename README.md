@@ -1,7 +1,7 @@
 i3-quickterm
 =============
 
-[![PyPI version](https://badge.fury.io/py/i3-quickterm.svg)](https://badge.fury.io/py/i3-quickterm)
+[![Packaging status](https://repology.org/badge/vertical-allrepos/python:i3-quickterm.svg)](https://repology.org/project/python:i3-quickterm/versions)
 
 A small drop-down terminal for [i3wm](https://i3wm.org/) and [sway](https://swaywm.org/)
 
@@ -42,7 +42,7 @@ The configuration is read from `~/.config/i3/i3-quickterm.json`.
 * `term`: the terminal emulator of choice
 * `history`: a file to save the last-used shells order, last-used ordering
   is disabled if set to null
-* `ratio`: the percentage of the screen height to use
+* `ratio`: the percentage of the screen height to usez
 * `pos`: where to pop the terminal (`top` or `bottom`)
 * `shells`: registered shells (`{ name: command }`)
 
